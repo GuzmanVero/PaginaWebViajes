@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsive-->
+    <title>Time To Go</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <body> 
+  <div>
+<input type="datetime-local">
+  </div>
+  <br>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <form class="d-flex">
+        <input class="form-control me-2" type="Inicia tu viaje" placeholder="Inicia tu viaje" aria-label="Inicia tu viaje">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+  <!--Prueba de menú-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">INICIO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destinos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nueatros Servicios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Viajes</a></li>
+              <li><a class="dropdown-item" href="#">Aerolíneas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Moneda</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">contactos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--cierre-->
+    <br><br>
+  <h1>TIME TO GO</h1>
+  <h1>Bienvenidos Viajeros del Mundo</h1>
+  <img src="Img encabezado/time.jfif" alt="time" width="400px" height="400px">
+<hr>
+  <!--Prueba inicio de sesión-->
+  <div class="sesion">
+    <div class="row">
+      <div class="col">
+  
+      </div>
+      <div class="col">
+        <div class="text-end"><img src="Gif/plane.gif"></div>
+        <h2>Registrate con Time To Go</h2>
+        <form action="#">
+          <div class="mb-4">
+            <label for="email" class="form-label">Correo Elecrónico</label>
+            <input type="email" class="form-control" name="email" placeholder="Aavillalta@gmail.com">
+          </div>
+          <div class="mb-4">
+            <label for="Password" class="form-label">Password</label>
+            <input type="Password" class="form-control" name="Password">
+          </div>
+          <div class="mb-4 form-check" >
+            <input type="checkbox" name="Coneccted" class="form-check-input" id="">
+            <label for="Coneccted" class="form-check-label"> Mantenerme Conectado</label>
+          </div>
+          </div>
+  
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+          </div>
+          <div class="my-3">
+            <span>Aún no tienes cuenta? <a href="#">Regístrate</a></span>
+            <br>
+            <span><a href="#">Recuperar contraseña</a></span>
+          </div>
+  
+        </form>
+        <!--conexión otras redes-->
+        <div class="redes">
+          <div class="row text-center">
+            <div class="col-12">Inicio de Sesión</div>
+  
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-outline-primary w-100 my-5">
+                <div class="row align-items-center">
+          <div class="col-2">
+            <img src="imagen listas/fb.png" width="32" alt="">
+          </div>
+  
+          <div class="col-10 text-center">
+            Facebook
+          </div>
+                </div>
+              </button>
+            </div>
+            <div class="col">
+              <button class="btn btn-outline-danger w-100 my-5"  >
+                <div class="row align-items-center">
+          <div class="col-2">
+            <img src="imagen listas/goo.png" width="22" alt="">
+          </div>
+  
+          <div class="col-10">
+            Google
+          </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+    </div>
+  
+   </div>
+     <!--Prueba inicio de sesión-->
+     <hr>
+<details>
+  <summary>Aventuras Time To Go</summary>
+  <hr>
+<ul>
+  <details>
+    <summary>Nosotros</summary>
+    <p>¡Bienvenidos a Time To Go! 🌍
+      Nos complace que hayan elegido nuestro sitio web para inspirar y planificar sus próximas aventuras. En Time To Go, estamos comprometidos a ayudarles a descubrir destinos asombrosos,
+      experiencias inolvidables y momentos mágicos en todo el mundo.Ya sea que estén buscando la emoción de una ciudad bulliciosa, la tranquilidad de un retiro en la montaña, o la belleza de una playa de arena blanca, tenemos algo para todos. Nuestra misión es hacer que cada viaje sea tan único como ustedes. </p>
+     <br>
+    <p>“Time to Go” es una empresa de viajes dinámica y centrada en el cliente que se dedica a hacer realidad los sueños de viaje de sus clientes. Con un nombre que evoca la emoción y la anticipación de embarcarse en una nueva aventura, “Time to Go” se especializa en crear experiencias de viaje personalizadas y memorables.
+        Ya sea que los clientes estén buscando unas vacaciones relajantes en la playa, un viaje de mochilero por Europa, o una expedición de senderismo en las montañas, tenemos la experiencia y los recursos para planificar el viaje perfecto. Con una red global de socios en la industria de viajes, podemos ofrecer a nuestros clientes una amplia gama de opciones de alojamiento, transporte y actividades turísticas.
+        Además, “Time to Go” se enorgullece de su excepcional servicio al cliente. Su equipo de asesores de viajes expertos está siempre disponible para ayudar a los clientes en cada paso del proceso de planificación de su viaje, asegurándose de que cada detalle esté cuidado.
+        En resumen, “Time to Go” no es solo una empresa de viajes, sino un compañero de confianza en todas tus aventuras. Con nosotros, siempre es el momento perfecto para explorar el mundo. 😊</p>
+        <p>Así que, ¿qué están esperando? Es hora de irse, es hora de explorar, es hora de vivir. ¡Embarquémonos juntos en este viaje y descubramos el maravilloso mundo que nos rodea!</p>
+        <img src="Img encabezado/time.jfif" alt="">
+        <br>
+  </details>
+<!--Espacio para ingresar los destinos disponibles-->
+<details>
+  <summary>Destinos</summary>
+  <ul>
+    <details>
+    <summary>Asia</summary>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Img encabezado/asia1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Img encabezado/asia2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Img encabezado/asia3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <br>
+    <iframe src="https://adondeviajar.net/asia/" width="1000" height="1000"></iframe>
+    <br>
+    <a target="_blank" href="https://www.google.com/search?sca_esv=c73958766a138815&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&sxsrf=ACQVn08tqP8tjWuBJmQtLIxmd1yHBSaiIQ:1712090709816&q=Singapur&si=AKbGX_paaCugDdYkuX2heTJMr0_FGRox2AzKVmiTg2eQr2d-rvhj0T7M3DCKSYeIK7ZHcRGiBqAUn9kvuqWKaBeDKtLEFYmhlg%3D%3D&sa=X&ved=2ahUKEwi7sNP0sqSFAxUfTTABHSqjB8cQs4ILegQIGxAD&biw=1600&bih=773&dpr=1">Singapur</a>
+    <br>
+    <a target="_blank" href="https://www.google.com/search?sca_esv=c73958766a138815&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&sxsrf=ACQVn08tqP8tjWuBJmQtLIxmd1yHBSaiIQ:1712090709816&q=Dub%C3%A1i&si=AKbGX_oBDfquzodaRrfbb9img4kPQ4fCBZjeqAiaW1svvC8uXpUct-qyGcvk9U_abLHanQXPUmqbMQLvSkyfeIH-BZGsIWBP6w%3D%3D&sa=X&ved=2ahUKEwi7sNP0sqSFAxUfTTABHSqjB8cQs4ILegQIGRAD&biw=1600&bih=773&dpr=1">Dubái</a>
+    <br>
+  <button type="submit">Reservar Ahora</button>
+</details>
+    <hr>
+    <details>
+      <summary>Africa</summary>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Img encabezado/africa1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Img encabezado/africa2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Img encabezado/africa3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <br>
+        <iframe src="https://www.lasexta.com/viajestic/destinos/estos-son-destinos-mas-turisticos-continente-africano_201902135c63d1b90cf2a98eca53070e.html" width="1000" height="1000"></iframe>
+        <br>
+        <a target="_blank" href="https://www.google.com/search?q=egipto&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tDP1TcwyjY1MWD0YktNzywoyQcAK7EFHQ&oq=egi&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2VnaSoCCAAyEBAuGEMYgwEYsQMYgAQYigUyChAAGIAEGIoFGEMyChAAGIAEGBQYhwIyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBSOgbUABY9QRwAHgAkAEAmAGfAaABsQOqAQMwLjO4AQHIAQD4AQGYAgSgAtIZwgIKEC4YgAQYigUYQ8ICEBAuGIAEGIoFGEMYxwEY0QPCAg4QABiABBiKBRixAxiDAcICCxAAGIAEGLEDGIMBwgIEEAAYA8ICGRAuGIAEGIoFGEMYlwUY3AQY3gQY4ATYAQHCAhAQABiABBiKBRhDGLEDGIMBwgIIEAAYgAQYsQOYAwC6BgYIARABGBSSBwcwLjMuOC0xoAeiIA&sclient=gws-wiz-serp">Egipto</a>
+        <br>
+        <a target="_blank" href="https://www.google.com/search?q=kenya&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tTP1TcwtCxKNzVg9GLNTs2rTAQALWAFHw&oq=kenya&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWtlbnlhKgIIATIKEC4YgAQYigUYQzIKEC4YgAQYigUYQzIQEC4YgAQYigUYQxjHARjRAzIFEC4YgAQyBRAuGIAEMgUQABiABDIFEC4YgAQyBRAAGIAEMgcQABiABBgKMgUQABiABDIZEC4YgAQYigUYQxiXBRjcBBjeBBjgBNgBAUicLlAAWJMJcAB4AJABAJgBjAGgAaEFqgEDMC41uAEByAEA-AEBmAIIoAKC0APCAhAQLhhDGIMBGLEDGIAEGIoFwgIKEAAYgAQYigUYQ8ICChAAGIAEGBQYhwLCAh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBwgILEC4YgAQYsQMYgwHCAggQLhiABBixA8ICDhAuGIAEGLEDGMcBGNEDwgIIEAAYgAQYsQPCAgQQLhgDwgILEAAYgAQYsQMYgwHCAhoQLhiABBixAxiDARiXBRjcBBjeBBjgBNgBAcICDRAuGIAEGIoFGEMYsQPCAhAQLhiABBiKBRhDGLEDGIMBwgIWEC4YgAQYigUYQxixAxjJAxjHARjRA8ICCxAAGIAEGIoFGJIDwgIREC4YgAQYsQMYxwEY0QMY1ALCAgcQLhiABBgKwgIfEC4YgAQYigUYQxjHARjRAxiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHBzAuNS45LTOgB9yZAQ&sclient=gws-wiz-serp">Kenya</a>
+        <br>
+      <button type="submit">Reservar Ahora</button>
+  </details>
+    <hr>
+    <details>
+      <summary>América</summary>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Img encabezado/america1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img encabezado/america2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img encabezado/america3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+        <iframe src="https://www.infobae.com/tendencias/2023/12/25/los-9-destinos-de-las-americas-mas-interesantes-para-visitar-en-2024-segun-national-geographic/" width="1000" height="1000"></iframe>
+        <br>
+        <a target="_blank" href="https://www.google.com/search?q=egipto&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tDP1TcwyjY1MWD0YktNzywoyQcAK7EFHQ&oq=egi&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2VnaSoCCAAyEBAuGEMYgwEYsQMYgAQYigUyChAAGIAEGIoFGEMyChAAGIAEGBQYhwIyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBSOgbUABY9QRwAHgAkAEAmAGfAaABsQOqAQMwLjO4AQHIAQD4AQGYAgSgAtIZwgIKEC4YgAQYigUYQ8ICEBAuGIAEGIoFGEMYxwEY0QPCAg4QABiABBiKBRixAxiDAcICCxAAGIAEGLEDGIMBwgIEEAAYA8ICGRAuGIAEGIoFGEMYlwUY3AQY3gQY4ATYAQHCAhAQABiABBiKBRhDGLEDGIMBwgIIEAAYgAQYsQOYAwC6BgYIARABGBSSBwcwLjMuOC0xoAeiIA&sclient=gws-wiz-serp">Egipto</a>
+        <br>
+        <a target="_blank" href="https://www.google.com/search?q=kenya&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tTP1TcwtCxKNzVg9GLNTs2rTAQALWAFHw&oq=kenya&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWtlbnlhKgIIATIKEC4YgAQYigUYQzIKEC4YgAQYigUYQzIQEC4YgAQYigUYQxjHARjRAzIFEC4YgAQyBRAuGIAEMgUQABiABDIFEC4YgAQyBRAAGIAEMgcQABiABBgKMgUQABiABDIZEC4YgAQYigUYQxiXBRjcBBjeBBjgBNgBAUicLlAAWJMJcAB4AJABAJgBjAGgAaEFqgEDMC41uAEByAEA-AEBmAIIoAKC0APCAhAQLhhDGIMBGLEDGIAEGIoFwgIKEAAYgAQYigUYQ8ICChAAGIAEGBQYhwLCAh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBwgILEC4YgAQYsQMYgwHCAggQLhiABBixA8ICDhAuGIAEGLEDGMcBGNEDwgIIEAAYgAQYsQPCAgQQLhgDwgILEAAYgAQYsQMYgwHCAhoQLhiABBixAxiDARiXBRjcBBjeBBjgBNgBAcICDRAuGIAEGIoFGEMYsQPCAhAQLhiABBiKBRhDGLEDGIMBwgIWEC4YgAQYigUYQxixAxjJAxjHARjRA8ICCxAAGIAEGIoFGJIDwgIREC4YgAQYsQMYxwEY0QMY1ALCAgcQLhiABBgKwgIfEC4YgAQYigUYQxjHARjRAxiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHBzAuNS45LTOgB9yZAQ&sclient=gws-wiz-serp">Kenya</a>
+        <br>
+      <button type="submit">Reservar Ahora</button>
+    </details>    
+    <hr>
+    <details>
+      <summary>Europa</summary>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="Img encabezado/europa4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Img encabezado/euro.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img encabezado/europa.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <br>
+        <iframe src="https://passport-photo.online/es-es/blog/lugares-interes-turistico-europa/" width="1000" height="1000"></iframe>
+        <br>
+        <a target="_blank" href="https://www.google.com/search?q=egipto&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tDP1TcwyjY1MWD0YktNzywoyQcAK7EFHQ&oq=egi&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2VnaSoCCAAyEBAuGEMYgwEYsQMYgAQYigUyChAAGIAEGIoFGEMyChAAGIAEGBQYhwIyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBSOgbUABY9QRwAHgAkAEAmAGfAaABsQOqAQMwLjO4AQHIAQD4AQGYAgSgAtIZwgIKEC4YgAQYigUYQ8ICEBAuGIAEGIoFGEMYxwEY0QPCAg4QABiABBiKBRixAxiDAcICCxAAGIAEGLEDGIMBwgIEEAAYA8ICGRAuGIAEGIoFGEMYlwUY3AQY3gQY4ATYAQHCAhAQABiABBiKBRhDGLEDGIMBwgIIEAAYgAQYsQOYAwC6BgYIARABGBSSBwcwLjMuOC0xoAeiIA&sclient=gws-wiz-serp">Egipto</a>
+        <br>
+        <a target="_blank" href="https://www.google.com/search?q=kenya&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tTP1TcwtCxKNzVg9GLNTs2rTAQALWAFHw&oq=kenya&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWtlbnlhKgIIATIKEC4YgAQYigUYQzIKEC4YgAQYigUYQzIQEC4YgAQYigUYQxjHARjRAzIFEC4YgAQyBRAuGIAEMgUQABiABDIFEC4YgAQyBRAAGIAEMgcQABiABBgKMgUQABiABDIZEC4YgAQYigUYQxiXBRjcBBjeBBjgBNgBAUicLlAAWJMJcAB4AJABAJgBjAGgAaEFqgEDMC41uAEByAEA-AEBmAIIoAKC0APCAhAQLhhDGIMBGLEDGIAEGIoFwgIKEAAYgAQYigUYQ8ICChAAGIAEGBQYhwLCAh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBwgILEC4YgAQYsQMYgwHCAggQLhiABBixA8ICDhAuGIAEGLEDGMcBGNEDwgIIEAAYgAQYsQPCAgQQLhgDwgILEAAYgAQYsQMYgwHCAhoQLhiABBixAxiDARiXBRjcBBjeBBjgBNgBAcICDRAuGIAEGIoFGEMYsQPCAhAQLhiABBiKBRhDGLEDGIMBwgIWEC4YgAQYigUYQxixAxjJAxjHARjRA8ICCxAAGIAEGIoFGJIDwgIREC4YgAQYsQMYxwEY0QMY1ALCAgcQLhiABBgKwgIfEC4YgAQYigUYQxjHARjRAxiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHBzAuNS45LTOgB9yZAQ&sclient=gws-wiz-serp">Kenya</a>
+        <br>
+      <button type="submit">Reservar Ahora</button>
+    </details>
+    <hr>
+    <details>
+    <summary>Oceanía</summary>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="Img encabezado/oceania1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="Img encabezado/oceania.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Img encabezado/oceania2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <br>
+      <iframe src="https://lostraveleros.com/que-ver-en-oceania/" width="1000" height="1000"></iframe>
+      <br>
+      <a target="_blank" href="https://www.google.com/search?q=egipto&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tDP1TcwyjY1MWD0YktNzywoyQcAK7EFHQ&oq=egi&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2VnaSoCCAAyEBAuGEMYgwEYsQMYgAQYigUyChAAGIAEGIoFGEMyChAAGIAEGBQYhwIyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBSOgbUABY9QRwAHgAkAEAmAGfAaABsQOqAQMwLjO4AQHIAQD4AQGYAgSgAtIZwgIKEC4YgAQYigUYQ8ICEBAuGIAEGIoFGEMYxwEY0QPCAg4QABiABBiKBRixAxiDAcICCxAAGIAEGLEDGIMBwgIEEAAYA8ICGRAuGIAEGIoFGEMYlwUY3AQY3gQY4ATYAQHCAhAQABiABBiKBRhDGLEDGIMBwgIIEAAYgAQYsQOYAwC6BgYIARABGBSSBwcwLjMuOC0xoAeiIA&sclient=gws-wiz-serp">Egipto</a>
+      <br>
+      <a target="_blank" href="https://www.google.com/search?q=kenya&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tTP1TcwtCxKNzVg9GLNTs2rTAQALWAFHw&oq=kenya&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWtlbnlhKgIIATIKEC4YgAQYigUYQzIKEC4YgAQYigUYQzIQEC4YgAQYigUYQxjHARjRAzIFEC4YgAQyBRAuGIAEMgUQABiABDIFEC4YgAQyBRAAGIAEMgcQABiABBgKMgUQABiABDIZEC4YgAQYigUYQxiXBRjcBBjeBBjgBNgBAUicLlAAWJMJcAB4AJABAJgBjAGgAaEFqgEDMC41uAEByAEA-AEBmAIIoAKC0APCAhAQLhhDGIMBGLEDGIAEGIoFwgIKEAAYgAQYigUYQ8ICChAAGIAEGBQYhwLCAh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBwgILEC4YgAQYsQMYgwHCAggQLhiABBixA8ICDhAuGIAEGLEDGMcBGNEDwgIIEAAYgAQYsQPCAgQQLhgDwgILEAAYgAQYsQMYgwHCAhoQLhiABBixAxiDARiXBRjcBBjeBBjgBNgBAcICDRAuGIAEGIoFGEMYsQPCAhAQLhiABBiKBRhDGLEDGIMBwgIWEC4YgAQYigUYQxixAxjJAxjHARjRA8ICCxAAGIAEGIoFGJIDwgIREC4YgAQYsQMYxwEY0QMY1ALCAgcQLhiABBgKwgIfEC4YgAQYigUYQxjHARjRAxiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHBzAuNS45LTOgB9yZAQ&sclient=gws-wiz-serp">Kenya</a>
+      <br>
+    <button type="submit">Reservar Ahora</button>
+  </details>
+    <hr>
+    <details>
+      <summary>Antártida</summary>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="Img encabezado/antartida5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Img encabezado/antartida2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img encabezado/antartida4.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <br>
+        <iframe src="https://tucholloviaje.com/10-lugares-visitar-la-antartida/" width="1000" height="1000"></iframe>
+        <br>
+        <a target="_blank" href="https://www.google.com/search?q=egipto&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tDP1TcwyjY1MWD0YktNzywoyQcAK7EFHQ&oq=egi&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2VnaSoCCAAyEBAuGEMYgwEYsQMYgAQYigUyChAAGIAEGIoFGEMyChAAGIAEGBQYhwIyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBSOgbUABY9QRwAHgAkAEAmAGfAaABsQOqAQMwLjO4AQHIAQD4AQGYAgSgAtIZwgIKEC4YgAQYigUYQ8ICEBAuGIAEGIoFGEMYxwEY0QPCAg4QABiABBiKBRixAxiDAcICCxAAGIAEGLEDGIMBwgIEEAAYA8ICGRAuGIAEGIoFGEMYlwUY3AQY3gQY4ATYAQHCAhAQABiABBiKBRhDGLEDGIMBwgIIEAAYgAQYsQOYAwC6BgYIARABGBSSBwcwLjMuOC0xoAeiIA&sclient=gws-wiz-serp">Egipto</a>
+        <br>
+        <a target="_blank" href="https://www.google.com/search?q=kenya&sca_esv=be2d3384baa617c2&sca_upv=1&rlz=1C1YTUH_esSV1058SV1059&biw=1600&bih=773&sxsrf=ACQVn08cwzJLNUrnoUjmWOnJkD1PYacMRQ%3A1712690089249&ei=qZMVZprmDofckvQPw9-72AI&gs_ssp=eJzj4tTP1TcwtCxKNzVg9GLNTs2rTAQALWAFHw&oq=kenya&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWtlbnlhKgIIATIKEC4YgAQYigUYQzIKEC4YgAQYigUYQzIQEC4YgAQYigUYQxjHARjRAzIFEC4YgAQyBRAuGIAEMgUQABiABDIFEC4YgAQyBRAAGIAEMgcQABiABBgKMgUQABiABDIZEC4YgAQYigUYQxiXBRjcBBjeBBjgBNgBAUicLlAAWJMJcAB4AJABAJgBjAGgAaEFqgEDMC41uAEByAEA-AEBmAIIoAKC0APCAhAQLhhDGIMBGLEDGIAEGIoFwgIKEAAYgAQYigUYQ8ICChAAGIAEGBQYhwLCAh8QLhhDGIMBGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBwgILEC4YgAQYsQMYgwHCAggQLhiABBixA8ICDhAuGIAEGLEDGMcBGNEDwgIIEAAYgAQYsQPCAgQQLhgDwgILEAAYgAQYsQMYgwHCAhoQLhiABBixAxiDARiXBRjcBBjeBBjgBNgBAcICDRAuGIAEGIoFGEMYsQPCAhAQLhiABBiKBRhDGLEDGIMBwgIWEC4YgAQYigUYQxixAxjJAxjHARjRA8ICCxAAGIAEGIoFGJIDwgIREC4YgAQYsQMYxwEY0QMY1ALCAgcQLhiABBgKwgIfEC4YgAQYigUYQxjHARjRAxiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHBzAuNS45LTOgB9yZAQ&sclient=gws-wiz-serp">Kenya</a>
+        <br>
+      <button type="submit">Reservar Ahora</button>
+    </details>
+    <hr>
+    <details>
+      <summary>EL SALVADOR</summary>
+     <li>El Hogar Del Mundo</li>
+     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Img encabezado/elsalvador.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>EL SALVADOR</h5>
+            <p>BIENVENIDOS VIAJEROS AL HOGAR DEL MUNDO.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Img encabezado/esa1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>EL SALVADOR</h5>
+            <p>TE ENCUENTRAS EN EL CORAZON ESMERALDA DEL PLANETA.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Img encabezado/El-Salvador-1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>EL SALVADOR</h5>
+            <p>¡HOGAR DULCE, HOGAR!.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+     <br>
+    <iframe src="https://explorandomaravillas.com/lugares-turisticos-de-el-salvador/" width="1000" height="1000"></iframe>
+        <iframe src="https://www.tripadvisor.es/Attractions-g294476-Activities-San_Salvador_San_Salvador_Department.html" width="1000" height="1000"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4Fo80sOY4ng?si=e9AEX7fzlPp0LO5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <a target="_blank" href="https://www.mitur.gob.sv/">MINISTERIO DE TURISMO</a>
+        <br>
+      <button type="submit">Reservar Ahora</button>
+    </details>
+    <hr>
+  </ul>
+</details>
+    </details>
+    <!-- Espacio de reservaciones-->
+  <details>
+  <summary>contactos</summary>
+    <li>Reservaciones</li>
+    <ul>
+      <details>
+      <summary>AIRBNB</summary>
+      <a target="_blank" href="https://www.airbnb.com.sv/rooms/49464928?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1175318954&search_mode=flex_destinations_search&check_in=2024-05-15&check_out=2024-05-20&source_impression_id=p3_1712765860_xvOQvqlPa9AD0JsF&previous_page_section_name=1000&federated_search_id=9cdbd2cb-9f24-4412-b067-21509ca49fc2">AIRBNB</a>
+    <button type="submit">Reservar Ahora</button>
+  </details>
+      <hr>
+      <details>
+        <summary>VacationRentals</summary>
+        <a target="_blank" href="https://www.vacationrenter.com/es-es/search/Colombia?placeId=ChIJo5QVrjqkFY4RQKPy7wSaDZo&al=Colombia&as=alquileres%20de%20vacaciones&utm_source=google&utm_medium=paid_search&utm_campaign=18890598607&utm_content=142978249146&utm_term=kwd-12026464216&match_type=e&network=g&device=c&query=airbnb&location=9069897&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJYKON6vGZI_HsAUN362i3eGlFPAZjq1lMr2__lHkWWfLl1Z5x_XIHBoCKfgQAvD_BwE&nm=1">VacationRentals</a>
+        <button type="submit">Reservar Ahora</button>
+    </details>
+      <hr>
+      <details>
+        <summary>BOOKING</summary>
+          <iframe src="https://www.booking.com/index.es-ar.html?aid=309654;label=holidays-spanish-es-row-dO7fCRvjC9HfYOSbnIwcswS479808261984:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-1101281792:lp9069897:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJbjSP38YW_wEbaK35ajzR7d2ZQob33q9zxMxb0gORtxExtT2AgvmOBoCkkoQAvD_BwE" width="1000" height="1000"></iframe>
+          <br>
+        <button type="submit">Reservar Ahora</button>
+      </details>
+      <hr>
+      <details>
+        <summary>KAYAK</summary>
+          <a target="_blank" href="https://www.es.kayak.com/stays?lang=es&skipapp=true&gclid=CjwKCAjw8diwBhAbEiwA7i_sJVx4X0EYYoAU-3BVY8AOb7X0hlH87C6lupwEPW135oG2V08uGxet8RoCUz4QAvD_BwE&g_kw=ofertas+hoteles">KAYAK</a>
+        <button type="submit">Reservar Ahora</button>
+      </details>
+      <hr>
+      <details>
+      <summary>amatetravel</summary>
+        <iframe src="https://amatetravel.com/" width="1000" height="1000"></iframe>
+        <br>
+      <button type="submit">Reservar Ahora</button>
+    </details>
+      <hr>
+      <details>
+        <summary>ViajesExito</summary>
+          <a target="_blank" href="https://www.viajesexito.com/hoteles">ViajesExito</a>
+          <br>
+        <button type="submit">Reservar Ahora</button>
+      </details>
+      <hr>
+    </ul>
+  </details>
+<details>
+<summary>Moneda</summary>
+    <li>Cambio de Moneda</li>
+    <a target="_blank" href="https://www.google.com/search?q=calculadora+de+cambio+de+moneda&rlz=1C1YTUH_esSV1058SV1059&oq=calculadora+de+cambi&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABKgCALACAA&sourceid=chrome&ie=UTF-8">Convierte Tu Moneda</a> 
+  </details>
+  <hr>
+  <h2>  ¡Felices viajes con Time To Go! 🌎✈️</h2> 
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagen listas/mundo3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>TIME TO GO</h2>
+          <p>Exploremos el mundo juntos</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagen listas/mundo1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>TIME TO GO</h2>
+          <p>Conoce el mundo junto a Time To Go</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagen listas/mundo4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Time To Go</h2>
+          <p>Visitemos el mundo juntos</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+      <!--Prueba Aerolenías -->
+    
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Aerolíneas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.es.momondo.com/flights?lang=es&skipapp=true&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh7bU-DJZwYaESodz1Fx_GMRA8ZjfcHdTsIO3E0A9HXo5f-E86En4YhoCBCcQAvD_BwE" target="_blank">momondo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.avianca.com/es?gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh3EsAe66jxPulj_BBuTAanVtSJw1HL_uMLNhKG5b4xM5XhZVTfM3RxoCSq8QAvD_BwE" target="_blank">Avianca</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.aa.com/homePage.do?locale=es_PR" target="_blank">American Airlines</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.copaair.com/es-gs/?d1=GS%3Aes-SV_BR%5CCore%2FGeo%40SV%26%26GS%3Aes-SV_BR%5CCore%3DCM%2FEX%40Copa.txt&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh_mPO7dqASvxIWuk1u60jAoFmU5OxC3sSz43RzLeY7F1ttPcYy7fTxoCxVcQAvD_BwE" target="_blank">Copa Airlines</a>
+        </li>
+      </ul>
+  
+      <!--Cierre Aerolenías -->
+<br>
+ <label for="Comentario">Comentario</label>
+ <textarea cols="50" rows="10" id="Comentario" placeholder="Ingrese su comentario" name="Comentario"></textarea>
+ <br>
+ <input type="submit">
+<footer class="footer">
+  <div class="conteiner">
+    <div class="footer-row">
+      <div class="footer-links">
+        <h4>Compañia</h4>
+        <ul>
+          <li><a href="#">TIME TO GO</a></li>
+          <li><a href="#">Nuestros Servicios</a></li>
+          <li><a href="#">Politicas de Privacidad</a></li>
+          <li><a href="#">Recibe Promociones</a></li>
+          <details>
+            <summary>Correo</summary>
+            <a href="mailto:timetogo@gmail.com">timetogo@gmail.com</a>
+
+          </details>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-links">
+        <h4>Ayuda</h4>
+        <ul>
+          <li><a href="#">Preguntas</a></li>
+          <li><a href="#">Reservaciones</a></li>
+          <li><a href="#">reservacion para amigos</a></li>
+          <li><a href="#">pago</a></li>
+          
+        </ul>
+
+      </div>
+      <div class="footer-links">
+        <h4>¿dudas?</h4>
+        <ul>
+          <li><a href="#">Agencia</a></li>
+          <li><a href="#">Telefonos</a></li>
+          <li><a href="#">Vuelos</a></li>
+          <li><a href="#">Cancela tu Revervacion</a></li>
+          
+        </ul>
+
+      </div>
+      <div class="footer-links">
+        <h4>Siguenos</h4>
+       <div class="social-links"> 
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-x"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-gmail"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+
+       </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <p>Copyright 2024</p>
+  <a href="#">IR AL INICIO</a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</footer>
+</body>
+</html>
